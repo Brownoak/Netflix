@@ -1,0 +1,12 @@
+.event_img{
+    /* filter: blur(1px); */
+    opacity: 0.2;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.main{
+    background: #000000;
+}

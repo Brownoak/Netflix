@@ -6,3 +6,7 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("black_nav");
   }
 });
+
+
+
+
