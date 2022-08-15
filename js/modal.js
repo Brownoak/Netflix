@@ -8,7 +8,7 @@ link.rel = "stylesheet";
 link.type = "text/css";
 link.href = "link.css";
 
-document.querySelector(".event_img").addEventListener("click", function () {
+document.querySelector(".posters").addEventListener("click", function () {
   document.querySelector(".popup").classList.add("active");
   main.appendChild(link);
 });
