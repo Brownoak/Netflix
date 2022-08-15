@@ -1,3 +1,26 @@
+@font-face {
+    font-family: Netflix-Sans;
+    src: url(./Font/NetflixSans-Light.otf);
+}
+@font-face {
+    font-family: Netflix-bold;
+    src: url(./Font/NetflixSans-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix-Sans, Arial, Helvetica, sans-serif;
+
+  }
+
+  body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+  }
+
+
 .banner{
     background-image: url("../images/cvr-new.webp");
     background-size: cover;
