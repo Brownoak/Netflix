@@ -257,4 +257,40 @@ body{
     color: white;
 }
 
+/*- styling season selector-*/
+.episode_list{
+    display: flex;
+    /* justify-content: firs; */
+    transition: all 0.5s;
+    z-index: 1;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.index_num{
+    /* width: fit-content; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #D2D2D2;
+}
+
+.episode_title{
+    font-weight: 700;
+}
+.episode_lists{
+    display: inline-block;
+    padding: 1.26vw;
+    border-bottom: .1px solid rgb(94, 92, 92);
+    cursor: pointer;
+}
+
+.episode_lists.selected{
+    background: #333333;
+    border-radius: 3px;
+    border-bottom: none;
+    /* margin: 1vw 3vw; */
+    
+}
+
 
