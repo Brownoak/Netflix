@@ -424,5 +424,58 @@ body{
 }
 
 
+/* Trailers and More*/
+.hovered_play{
+    position: relative;
+}
+
+.grid_itm:hover .play_icn{
+    display: block;
+}
+.play_icn{
+    position: absolute;
+    display:none;
+    width:2.7vw;
+    margin:0 auto;
+    top: 4vw; 
+    left:0px;
+    right:0px;
+    z-index:1;
+    border: 1px solid #D2D2D2;
+    border-radius: 50%;
+    padding: .7vw;
+    background: #1E1E1480;
+}
+
+.play_icn.min{
+    
+    top: 1vw; 
+    
+}
+
+.trailers{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-gap : 1.2vw;
+    grid-template-columns: repeat(3, 1fr);    
+}
+
+.trailer_itm{
+    cursor: pointer;
+    transition: 0.2s;
+
+
+}
+
+.trail_desc{
+    padding: 1vw 1vw 1vw 0vw;
+    color: #D2D2D2;
+
+}
+
+.trailer_itm:hover .play_icn{
+    display: block;
+}
+
 
 
