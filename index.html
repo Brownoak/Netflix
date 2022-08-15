@@ -8,188 +8,194 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/header.css" >
     <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <title>Netflix</title>
 </head>
 
 <body>
     <div class="main">
-        <div class="container">
-            <header class="container_header" id="nav">
+        <div class="background">
+            <div class="container">
+                <header class="container_header" id="nav">
 
-                <div class="logo">
-                    <img src="./images/logo2.png" class="imglogo">
-                    <ul class="b links">
-                        <li><a href="">Home </a></li>
-                        <li><a href="">TV shows</a></li>
-                        <li><a href="">Movies</a></li>
-                        <li><a href="">Latest</a></li>
-                        <li><a href="">My List</a></li>
-                        <li><a href="">Audio& Subtitles</a></li>
+                    <div class="logo">
+                        <img src="./images/logo2.png" class="imglogo">
+                        <ul class="b links">
+                            <li><a href="">Home </a></li>
+                            <li><a href="">TV shows</a></li>
+                            <li><a href="">Movies</a></li>
+                            <li><a href="">Latest</a></li>
+                            <li><a href="">My List</a></li>
+                            <li><a href="">Audio& Subtitles</a></li>
 
-                    </ul>
+                        </ul>
+                    </div>
+                    <div class="buttons">
+
+                        <a href="" class="fa fa-search" id="btn"></a>
+                        <a class="kids" href=" " id="btn">Kids</a>
+                        <a href="">DVD</a>
+                        <a href="" class="fa fa-bell" id="btn"></a>
+
+                        <div class="dropdown">
+                            <div class="dropbtn">
+                                <a href=""><img src="./images/avtr.png" class="avtr"></a>
+                                <span><a class="fa fa-caret-down"></a></span>
+                            </div>
+
+                            <div class="dropdown-content">
+                                <a href="#">Clinics</a>
+                                <a href="#">Hospitals</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            </header>
+
+            <!--banner-->
+
+            <div class="banner">
+                <div class="banner_elt">
+                    <!-- <h1 class="ban_title">6 UNDERGROUND</h1> -->
+                    <img src="./images/cvr-lrg.webp" class="ban_icn">
+                    <div class="banner_btns">
+                        <button class="banner_btn1"><a class="fa fa-play" href=""></a> Play</button>
+                        <button class="banner_btn2"><a class="fa fa-info-circle" href=""></a> More Info</button>
+                    </div>
+                    <div class="ban_fader"></div>
                 </div>
-                <div class="buttons">
+            </div>
 
-                    <a href="" class="fa fa-search" id="btn"></a>
-                    <a class="kids" href=" " id="btn">Kids</a>
-                    <a href="">DVD</a>
-                    <a href="" class="fa fa-bell" id="btn"></a>
+            <!--horizontal sliders-->
 
-                    <div class="dropdown">
-                        <div class="dropbtn">
-                            <a href=""><img src="./images/avtr.png" class="avtr"></a>
-                            <span><a class="fa fa-caret-down"></a></span>
-                        </div>
-
-                        <div class="dropdown-content">
-                            <a href="#">Clinics</a>
-                            <a href="#">Hospitals</a>
-
-                        </div>
+            <div class="sliders">
+                <a class="a slider_title">Violent Suspensful TV Shows</a>
+                <div class="posters">
+                    <div class="event_img">
+                        <img src="./images/p1.jpg" class="poster">
+                        <img src="./images/p2.jpg" class="poster">
+                        <img src="./images/p3.jpg" class="poster">
+                        <img src="./images/p4.jpg" class="poster">
+                        <img src="./images/p5.jpg" class="poster">
+                        <img src="./images/p6.jpg" class="poster">
+                        <img src="./images/p7.jpg" class="poster">
+                        <img src="./images/p8.jpg" class="poster">
                     </div>
                 </div>
 
-        </div>
-        </header>
-
-        <!--banner-->
-
-        <div class="banner">
-            <div class="banner_elt">
-                <!-- <h1 class="ban_title">6 UNDERGROUND</h1> -->
-                <img src="./images/cvr-lrg.webp" class="ban_icn">
-                <div class="banner_btns">
-                    <button class="banner_btn1"><a class="fa fa-play" href=""></a> Play</button>
-                    <button class="banner_btn2"><a class="fa fa-info-circle" href=""></a> More Info</button>
+                <a class="slider_title">Continue Watching for You</a>
+                <div class="posters">
+                    <img src="./images/p9.jpg" class="poster">
+                    <img src="./images/p10.jpg" class="poster">
+                    <img src="./images/p11.jpg" class="poster">
+                    <img src="./images/p12.jpg" class="poster">
+                    <img src="./images/p13.jpg" class="poster">
+                    <img src="./images/p14.jpg" class="poster">
+                    <img src="./images/p15.jpg" class="poster">
+                    <img src="./images/p5.jpg" class="poster">
                 </div>
-                <div class="ban_fader"></div>
+
+                <a class="slider_title">Trending Now</a>
+                <div class="posters">
+                    <img src="./images/p6.jpg" class="poster">
+                    <img src="./images/p7.jpg" class="poster">
+                    <img src="./images/p8.jpg" class="poster">
+                    <img src="./images/p9.jpg" class="poster">
+                    <img src="./images/p10.jpg" class="poster">
+                    <img src="./images/p11.jpg" class="poster">
+                    <img src="./images/p12.jpg" class="poster">
+                    <img src="./images/p13.jpg" class="poster">
+                </div>
+
+                <a class="slider_title">Hollywood Movies</a>
+                <div class="posters">
+                    <img src="./images/p14.jpg" class="poster">
+                    <img src="./images/p15.jpg" class="poster">
+                    <img src="./images/p3.jpg" class="poster">
+                    <img src="./images/p4.jpg" class="poster">
+                    <img src="./images/p5.jpg" class="poster">
+                    <img src="./images/p6.jpg" class="poster">
+                    <img src="./images/p7.jpg" class="poster">
+                    <img src="./images/p8.jpg" class="poster">
+                </div>
+
+                <a class="slider_title">30-Minute Laughs</a>
+                <div class="posters">
+                    <img src="./images/p9.jpg" class="poster">
+                    <img src="./images/p10.jpg" class="poster">
+                    <img src="./images/p11.jpg" class="poster">
+                    <img src="./images/p12.jpg" class="poster">
+                    <img src="./images/p13.jpg" class="poster">
+                    <img src="./images/p14.jpg" class="poster">
+                    <img src="./images/p15.jpg" class="poster">
+                    <img src="./images/p1.jpg" class="poster">
+                </div>
+
+                <a class="slider_title">US TV Dramas</a>
+                <div class="posters">
+                    <a href=" "><img src="./images/p1.jpg" class="poster"></a>
+                    <img src="./images/p2.jpg" class="poster">
+                    <img src="./images/p3.jpg" class="poster">
+                    <img src="./images/p4.jpg" class="poster">
+                    <img src="./images/p5.jpg" class="poster">
+                    <img src="./images/p6.jpg" class="poster">
+                    <img src="./images/p7.jpg" class="poster">
+                    <img src="./images/p8.jpg" class="poster">
+                </div>
+
+                <a class="slider_title">Watch It again</a>
+                <div class="posters">
+                    <img src="./images/p5.jpg" class="poster">
+                    <img src="./images/p6.jpg" class="poster">
+                    <img src="./images/p7.jpg" class="poster">
+                    <img src="./images/p8.jpg" class="poster">
+                    <img src="./images/p9.jpg" class="poster">
+                    <img src="./images/p10.jpg" class="poster">
+                    <img src="./images/p11.jpg" class="poster">
+                    <img src="./images/p12.jpg" class="poster">
+                </div>
+
+                <a class="slider_title">Top Picks for You</a>
+                <div class="posters">
+                    <img src="./images/p11.jpg" class="poster">
+                    <img src="./images/p12.jpg" class="poster">
+                    <img src="./images/p13.jpg" class="poster">
+                    <img src="./images/p14.jpg" class="poster">
+                    <img src="./images/p15.jpg" class="poster">
+                    <img src="./images/p1.jpg" class="poster">
+                    <img src="./images/p2.jpg" class="poster">
+                    <img src="./images/p3.jpg" class="poster">
+                </div>
+
+                <a class="slider_title">Food For Hungry Brains</a>
+                <div class="posters">
+                    <img src="./images/p4.jpg" class="poster">
+                    <img src="./images/p5.jpg" class="poster">
+                    <img src="./images/p6.jpg" class="poster">
+                    <img src="./images/p7.jpg" class="poster">
+                    <img src="./images/p8.jpg" class="poster">
+                    <img src="./images/p9.jpg" class="poster">
+                    <img src="./images/p10.jpg" class="poster">
+                    <img src="./images/p11.jpg" class="poster">
+                </div>
+
+                <a class="slider_title">Watch Together for Older Kids</a>
+                <div class="posters">
+                    <img src="./images/p12.jpg" class="poster">
+                    <img src="./images/p13.jpg" class="poster">
+                    <img src="./images/p14.jpg" class="poster">
+                    <img src="./images/p15.jpg" class="poster">
+                    <img src="./images/p1.jpg" class="poster">
+                    <img src="./images/p2.jpg" class="poster">
+                    <img src="./images/p3.jpg" class="poster">
+                    <img src="./images/p4.jpg" class="poster">
+                </div>
+
             </div>
         </div>
 
-        <!--horizontal sliders-->
-
-        <div class="sliders">
-            <a class="a slider_title">Violent Suspensful TV Shows</a>
-            <div class="posters">
-                <a href=" "><img src="./images/p1.jpg" class="poster"></a>
-                <img src="./images/p2.jpg" class="poster">
-                <img src="./images/p3.jpg" class="poster">
-                <img src="./images/p4.jpg" class="poster">
-                <img src="./images/p5.jpg" class="poster">
-                <img src="./images/p6.jpg" class="poster">
-                <img src="./images/p7.jpg" class="poster">
-                <img src="./images/p8.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">Continue Watching for You</a>
-            <div class="posters">
-                <img src="./images/p9.jpg" class="poster">
-                <img src="./images/p10.jpg" class="poster">
-                <img src="./images/p11.jpg" class="poster">
-                <img src="./images/p12.jpg" class="poster">
-                <img src="./images/p13.jpg" class="poster">
-                <img src="./images/p14.jpg" class="poster">
-                <img src="./images/p15.jpg" class="poster">
-                <img src="./images/p5.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">Trending Now</a>
-            <div class="posters">
-                <img src="./images/p6.jpg" class="poster">
-                <img src="./images/p7.jpg" class="poster">
-                <img src="./images/p8.jpg" class="poster">
-                <img src="./images/p9.jpg" class="poster">
-                <img src="./images/p10.jpg" class="poster">
-                <img src="./images/p11.jpg" class="poster">
-                <img src="./images/p12.jpg" class="poster">
-                <img src="./images/p13.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">Hollywood Movies</a>
-            <div class="posters">
-                <img src="./images/p14.jpg" class="poster">
-                <img src="./images/p15.jpg" class="poster">
-                <img src="./images/p3.jpg" class="poster">
-                <img src="./images/p4.jpg" class="poster">
-                <img src="./images/p5.jpg" class="poster">
-                <img src="./images/p6.jpg" class="poster">
-                <img src="./images/p7.jpg" class="poster">
-                <img src="./images/p8.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">30-Minute Laughs</a>
-            <div class="posters">
-                <img src="./images/p9.jpg" class="poster">
-                <img src="./images/p10.jpg" class="poster">
-                <img src="./images/p11.jpg" class="poster">
-                <img src="./images/p12.jpg" class="poster">
-                <img src="./images/p13.jpg" class="poster">
-                <img src="./images/p14.jpg" class="poster">
-                <img src="./images/p15.jpg" class="poster">
-                <img src="./images/p1.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">US TV Dramas</a>
-            <div class="posters">
-                <a href=" "><img src="./images/p1.jpg" class="poster"></a>
-                <img src="./images/p2.jpg" class="poster">
-                <img src="./images/p3.jpg" class="poster">
-                <img src="./images/p4.jpg" class="poster">
-                <img src="./images/p5.jpg" class="poster">
-                <img src="./images/p6.jpg" class="poster">
-                <img src="./images/p7.jpg" class="poster">
-                <img src="./images/p8.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">Watch It again</a>
-            <div class="posters">
-                <img src="./images/p5.jpg" class="poster">
-                <img src="./images/p6.jpg" class="poster">
-                <img src="./images/p7.jpg" class="poster">
-                <img src="./images/p8.jpg" class="poster">
-                <img src="./images/p9.jpg" class="poster">
-                <img src="./images/p10.jpg" class="poster">
-                <img src="./images/p11.jpg" class="poster">
-                <img src="./images/p12.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">Top Picks for You</a>
-            <div class="posters">
-                <img src="./images/p11.jpg" class="poster">
-                <img src="./images/p12.jpg" class="poster">
-                <img src="./images/p13.jpg" class="poster">
-                <img src="./images/p14.jpg" class="poster">
-                <img src="./images/p15.jpg" class="poster">
-                <img src="./images/p1.jpg" class="poster">
-                <img src="./images/p2.jpg" class="poster">
-                <img src="./images/p3.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">Food For Hungry Brains</a>
-            <div class="posters">
-                <img src="./images/p4.jpg" class="poster">
-                <img src="./images/p5.jpg" class="poster">
-                <img src="./images/p6.jpg" class="poster">
-                <img src="./images/p7.jpg" class="poster">
-                <img src="./images/p8.jpg" class="poster">
-                <img src="./images/p9.jpg" class="poster">
-                <img src="./images/p10.jpg" class="poster">
-                <img src="./images/p11.jpg" class="poster">
-            </div>
-
-            <a class="slider_title">Watch Together for Older Kids</a>
-            <div class="posters">
-                <img src="./images/p12.jpg" class="poster">
-                <img src="./images/p13.jpg" class="poster">
-                <img src="./images/p14.jpg" class="poster">
-                <img src="./images/p15.jpg" class="poster">
-                <img src="./images/p1.jpg" class="poster">
-                <img src="./images/p2.jpg" class="poster">
-                <img src="./images/p3.jpg" class="poster">
-                <img src="./images/p4.jpg" class="poster">
-            </div>
-
-        </div>
 
         <div class="popup">
             <div class="close_div">
@@ -629,6 +635,7 @@
 
     </div>
     <script src="./js/index.js"></script>
+    <script src="./js/modal.js"></script>
 
 </body>
 

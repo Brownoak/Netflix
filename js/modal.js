@@ -6,9 +6,9 @@ var link = document.createElement("link");
 // set the attributes for link element
 link.rel = "stylesheet";
 link.type = "text/css";
-link.href = "link.css";
+link.href = "css/link.css";
 
-document.querySelector(".posters").addEventListener("click", function () {
+document.querySelector(".event_img").addEventListener("click", function () {
   document.querySelector(".popup").classList.add("active");
   main.appendChild(link);
 });
