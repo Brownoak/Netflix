@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Netflix-Sans;
+    src: url(../Font/NetflixSans-Light.otf);
+}
+@font-face {
+    font-family: Netflix-bold;
+    src: url(../Font/NetflixSans-Bold.otf);
+}
+
 body{
     position: relative;
     /* overflow-y: hidden; */
@@ -78,7 +87,7 @@ body{
 
 .popup_content{
     /* background-image: url('./images/ban_cvr.webp'); */
-    background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url('./images/ban_cvr.webp');
+    background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url('../images/ban_cvr.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
