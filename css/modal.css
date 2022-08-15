@@ -218,3 +218,43 @@ body{
     text-decoration: underline;
 }
 
+/*--*/
+
+.selector{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    padding:1vw 0 2vw 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.selector_name{
+    /* grid-column-start: span 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9vw;
+    font-weight: 700;
+    font-family: Netflix-bold, Arial, Helvetica, sans-serif;
+
+
+}
+
+.season_selector {
+    /* position: relative; */
+    /* left: 23vw; */
+    /* grid-column-start: span 1; */
+    border: 1px solid rgb(208, 206, 206);
+    width: fit-content;
+    padding: 1vw 1.2vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+
+}
+.season_selector a{
+    color: white;
+}
+
+
