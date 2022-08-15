@@ -293,4 +293,54 @@ body{
     
 }
 
+.select_play{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vw;
+
+}
+
+.select_play_top{
+    height: 6vw;
+    border-radius: 4px;
+
+    
+}
+
+.episode_lists:hover .play_icn{
+    display: block;
+}
+
+.episode_length{
+    padding-left: 0.6vw;
+}
+
+.episode_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25vw 0.63vw 0.63vw 1.25vw;
+}
+
+.episode_desc{
+    padding: 0 1vw 1vw;
+
+}
+
+.episode_content p{
+    color: #D2D2D2;
+
+}
+
+
+.title_header{
+    margin: 3.7vw 0 1.2vw;
+    display: flex;
+    font-size: 1.9vw;
+    font-family: Netflix-bold, Arial, Helvetica, sans-serif;
+
+
+}
+
 
