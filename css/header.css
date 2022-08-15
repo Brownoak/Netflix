@@ -216,5 +216,49 @@
   padding: .8vw 2vw;
 }
 
-/* */
+/*sliders */
+
+.sliders{
+    color: white;
+    padding: 0vw 0vw 0vw 4vw ;
+    line-height: 1.25vw;
+    vertical-align: bottom;
+  
+  }
+  
+  .a{
+    background-color: transparent;
+  }
+  
+  .slider_title{
+    font-size: #E5E5E5;
+    font-size: 1.4vw;
+    font-weight: 600;
+    line-height: 1.4vw;
+  }
+  .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding-bottom: 3.4vw;
+    padding-top: 1.4vw;
+    
+  }
+  .posters img{
+    cursor: pointer;
+  }
+  
+  .posters::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .poster{
+    /* width: 100%; */
+    width: 18vw;
+    object-fit: contain;
+    margin-right: .5vw;
+    max-height: 15vw;
+    transition: transform 450ms;
+  }
+
 
