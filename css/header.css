@@ -261,4 +261,10 @@
     transition: transform 450ms;
   }
 
+  /*black navigation*/
+  .black_nav{
+    background-color: #111;
+    height: 11vh;
+  }
+
 
