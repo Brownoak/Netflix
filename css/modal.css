@@ -150,3 +150,71 @@ body{
 .popup_padding{
     padding: 0vw 3.79vw;
 }
+
+
+.ptrack_content p{
+    font-size: 1.1vw;
+}
+
+.preview_detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    justify-content: space-between;
+    align-content: space-around;
+    /* padding:1vw 3vw 2vw 3vw; */
+   
+}
+
+.preview_left{
+    grid-column-start: span 1;
+    
+
+}
+
+.preview_left span{
+    margin-right: .6vw;
+    font-size: 1.1vw;
+
+}
+
+.audio_desc{
+    height: 1.4vw;
+    cursor: pointer;
+
+}
+
+
+.match_score{
+    color: #46D369;
+}
+
+.ptrack_content{
+    padding-top: 2vw;
+    display: block;
+}
+.preview_right{
+    grid-column-start: span 1;
+    margin-left: 2.5vw;
+
+}
+.preview_tag span{
+    display: block;
+    font-size: 1.1vw;
+
+}
+
+.prev_title{
+    color: #777777;
+}
+
+.prev_title a{
+    color: white;
+    cursor: pointer;
+
+}
+
+.prev_title a:hover {
+    text-decoration: underline;
+}
+
