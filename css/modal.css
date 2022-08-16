@@ -1,10 +1,15 @@
 @font-face {
     font-family: Netflix-Sans;
-    src: url(../Font/NetflixSans-Light.otf);
+    src: url(./Font/NetflixSans-Light.otf);
 }
 @font-face {
     font-family: Netflix-bold;
-    src: url(../Font/NetflixSans-Bold.otf);
+    src: url(./Font/NetflixSans-Bold.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Netflix-Sans, Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -28,7 +33,6 @@ body{
     width: 74vw;
     background: black;
     overflow-y: scroll;
-    color: white;
     /* height: 90vh; */
     bottom: 0;
     border-radius: 7px;
@@ -64,7 +68,7 @@ body{
     background-color: #181818;
     border-radius: 50%;
     padding: .7vw;
-    height: 1.7vw;
+    height: 3vw;
     cursor: pointer;
 
 }
@@ -93,6 +97,7 @@ body{
     background-position: 100%;
     object-fit: contain;
     height: 80vh;
+    color: white;
     
 }
 
@@ -145,7 +150,7 @@ body{
 .cont_bimg{
     border-radius: 50%;
     padding: .7vw;
-    height: 1.7vw;
+    height: 4vw;
     cursor: pointer;
     background-color: rgba(42,42,42,.6);
     border: 2px solid hsla(0,0%,100%,.5);
@@ -417,7 +422,7 @@ body{
 .collec_add{
     border-radius: 50%;
     padding: .7vw;
-    height: 1.7vw;
+    height: 3vw;
     border: 2px solid hsla(0,0%,100%,.5);
     cursor: pointer;
 }
@@ -444,7 +449,7 @@ body{
 .play_icn{
     position: absolute;
     display:none;
-    width:2.7vw;
+    width:4vw;
     margin:0 auto;
     top: 4vw; 
     left:0px;
