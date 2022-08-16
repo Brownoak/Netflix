@@ -132,6 +132,12 @@
     margin-right: 1vw;
 
 }
+
+.banner_right img :hover{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 .banner_right a{
     border-left: 2px solid hsla(0,0%,100%,.5);
     background: #33333399;
