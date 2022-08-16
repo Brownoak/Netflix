@@ -32,7 +32,7 @@
 
 
 .banner{
-    background-image: url("../images/cvr-new.webp");
+    background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%),url("../images/cvr-new.webp");
     background-size: cover;
     background-position: 50%;
     color: white;
