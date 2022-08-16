@@ -21,7 +21,12 @@
     color: white;
   }
 
-.event_img{
+.event_img, .event_img2, 
+.event_img3, .event_img4, 
+.event_img5, .event_img6, 
+.event_img7, .event_img8, 
+.event_img9, .event_img10 {
+    
     display: flex;
 }
 
