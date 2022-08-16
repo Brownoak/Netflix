@@ -21,6 +21,10 @@
     color: white;
   }
 
+.event_img{
+    display: flex;
+}
+
 
 .banner{
     background-image: url("../images/cvr-new.webp");
