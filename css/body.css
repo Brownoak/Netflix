@@ -41,18 +41,15 @@
 }
 
 .banner_elt{
-  margin-left: 2.34375vw ;
-  /* position: relative; */
+  margin-left: 5vw ;
   left: 2%;
-  /* bottom: 35%; */
-  /* z-index: 10; */
-  padding: 30vh;
+  padding-top: 50vh;
   display: inline-block;
   
 }
 
 .ban_icn{   
-  width: 20vw;
+  width: 25vw;
 }
 
 
@@ -77,6 +74,8 @@
 .banner_btn1{
   background-color: white;
   color: black;
+  margin-right: 1vw;
+
 }
 
 .banner_btn1:hover{
