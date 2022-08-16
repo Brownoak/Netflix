@@ -11,6 +11,8 @@ link.href = "css/link.css";
 document.querySelector(".event_img").addEventListener("click", function () {
   document.querySelector(".popup").classList.add("active");
   main.appendChild(link);
+  nav.classList.remove("black_nav");
+
 });
 
 document.querySelector(".popup .close_btn")
