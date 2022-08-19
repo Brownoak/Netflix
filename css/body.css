@@ -145,4 +145,51 @@ background-color: rgba(109, 109, 110, 0.7);
 }
 
 
+/*sliders */
+
+#sliders{
+  color: white;
+  padding: 0vw 0vw 0vw 4vw ;
+  line-height: 1.25vw;
+  vertical-align: bottom;
+
+}
+
+.a{
+  background-color: transparent;
+}
+
+.slider__title{
+  color: white;
+  font-size: 1.4vw;
+  font-weight: 600;
+  line-height: 1.4vw;
+}
+.row__imgs{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding-bottom: 3.4vw;
+  padding-top: 1vw;
+  
+}
+.row__imgs img{
+  cursor: pointer;
+}
+
+.row__imgs::-webkit-scrollbar{
+  display: none;
+}
+
+.row__img{
+  width: 18vw;
+  object-fit: contain;
+  margin-right: .5vw;
+  max-height: 15vw;
+  transition: transform 450ms;
+
+}
+
+
+
 
