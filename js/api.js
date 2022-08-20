@@ -37,5 +37,46 @@ fetch(requests.fetchDynamicBanner)
   var banner_title = document.getElementById("banner_title");
   banner.style.backgroundImage = "linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url(" + img_url + getMovie.backdrop_path + ")";
   banner_title.innerText = getMovie.original_title;
-})
+});
+
+//Romantic Movies
+fetch(requests.fetchRomanceMovies)
+  .then((res) => res.json())
+  .then((data) => {
+    const headrow = document.getElementById("sliders");
+    const row = document.createElement("div");
+    row.className = "slider__row";
+    row.classList.add("netflixrow");
+    headrow.appendChild(row);
+    const title = document.createElement("h2");
+    title.className = "slider__title";
+    title.innerText = "Romantic Movies";
+    row.appendChild(title);
+    const row_posters = document.createElement("div");
+    row_posters.className = "row__imgs";
+    row.appendChild(row_posters);
+  
+
+    data.results.forEach((movie) => {
+      const poster = document.createElement("img");
+      poster.className = "row__img";
+      var s = movie.id;
+      poster.id = s;
+      poster.src = img_url + movie.poster_path;
+      row_posters.appendChild(poster);
+      poster.addEventListener("click", function () {
+        document.querySelector(".popup").classList.add("active");
+        main.appendChild(link);
+        nav.classList.remove("black_nav");
+      });
+
+      document
+        .querySelector(".popup .close_btn")
+        .addEventListener("click", function (e) {
+          document.querySelector(".popup").classList.remove("active");
+          main.removeChild(link);
+        });
+    });
+  });
+
 
