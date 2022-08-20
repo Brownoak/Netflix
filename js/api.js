@@ -242,4 +242,42 @@ fetch(requests.fetchScienceFic)
 });
 
 
+//TV shows
+fetch(requests.fetchTVShows)
+.then((res) => res.json())
+.then((data) => {
+  const headrow = document.getElementById("sliders");
+  const row = document.createElement("div");
+  row.className = "slider__row";
+  row.classList.add("netflixrow");
+  headrow.appendChild(row);
+  const title = document.createElement("h2");
+  title.className = "slider__title";
+  title.innerText = "TV Shows";
+  row.appendChild(title);
+  const row_posters = document.createElement("div");
+  row_posters.className = "row__imgs";
+  row.appendChild(row_posters);
+  data.results.forEach((movie) => {
+    const poster = document.createElement("img");
+    poster.className = "row__img";
+    var s = movie.id;
+    poster.id = s;
+    poster.src = img_url + movie.poster_path;
+    row_posters.appendChild(poster);
+    poster.addEventListener("click", function () {
+      document.querySelector(".popup").classList.add("active");
+      main.appendChild(link);
+      nav.classList.remove("black_nav");
+    });
+
+    document
+      .querySelector(".popup .close_btn")
+      .addEventListener("click", function (e) {
+        document.querySelector(".popup").classList.remove("active");
+        main.removeChild(link);
+      });
+  });
+});
+
 
