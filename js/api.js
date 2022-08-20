@@ -14,7 +14,7 @@ const changeBanner= config.FETCH_CHANGING_BANNER;
 
 
 const requests = {
-    fetchNowPlaying: `${base_url}${changeBanner}`,
+    fetchDynamicBanner: `${base_url}${changeBanner}`,
     fetchTVShows: `${base_url}${tvshows}`,
     fetchActionMovies: `${base_url}${action}`,
     fetchComedyMovies: `${base_url}${comedy}`,
@@ -23,4 +23,19 @@ const requests = {
     fetchRomanceMovies: `${base_url}${romance}`,
     fetchScienceFic: `${base_url}${scienceFic}`,
   };
+
+// fetching for changable banner images
+
+fetch(requests.fetchDynamicBanner) 
+.then((res) => res.json())
+
+.then((data) => {
+  console.log(data.results);
+  const getMovie = data.results[Math.floor(Math.random() * data.results.length - 1)];
+  console.log(getMovie);
+  var banner = document.getElementById("banner");
+  var banner_title = document.getElementById("banner_title");
+  banner.style.backgroundImage = "linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url(" + img_url + getMovie.backdrop_path + ")";
+  banner_title.innerText = getMovie.original_title;
+})
 
