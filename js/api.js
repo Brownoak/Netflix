@@ -10,4 +10,17 @@ const crime = config.FETCH_CRIME_MOVIES;
 const romance = config.FETCH_ROMANTIC_MOVIES;
 const horror = config.FETCH_HORROR_MOVIES;
 const scienceFic = config.FETCH_SCIENCE_FIC_MOVIES;
+const changeBanner= config.FETCH_CHANGING_BANNER;
+
+
+const requests = {
+    fetchNowPlaying: `${base_url}${changeBanner}`,
+    fetchTVShows: `${base_url}${tvshows}`,
+    fetchActionMovies: `${base_url}${action}`,
+    fetchComedyMovies: `${base_url}${comedy}`,
+    fetchCrimeMovies:  `${base_url}${crime}`,
+    fetchHorrorMovies: `${base_url}${horror}`,
+    fetchRomanceMovies: `${base_url}${romance}`,
+    fetchScienceFic: `${base_url}${scienceFic}`,
+  };
 
